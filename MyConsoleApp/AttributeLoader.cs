@@ -5,7 +5,6 @@ using Jenzabar.JX.Common.WebServices.DataTransferObjects;
 using Jenzabar.JX.Common.WebServices.Interfaces;
 using Jenzabar.JX.Core.Exceptions;
 using Jenzabar.JX.Core.Interfaces;
-using System.Linq;
 
 
 namespace MyConsoleApp
@@ -32,7 +31,7 @@ namespace MyConsoleApp
         {
             // Get the location of the file we are going to import from the configuration settings
             string fileLocation = _setup.GetSetting("InvolvementFileLocation");
-             //test
+             
             // Initialize the FileHelper engine
             FileHelperEngine<FileFormat> engine = new FileHelperEngine<FileFormat>();
 
