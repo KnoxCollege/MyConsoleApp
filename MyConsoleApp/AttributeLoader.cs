@@ -32,7 +32,7 @@ namespace MyConsoleApp
         {
             // Get the location of the file we are going to import from the configuration settings
             string fileLocation = _setup.GetSetting("InvolvementFileLocation");
-            
+             //test
             // Initialize the FileHelper engine
             FileHelperEngine<FileFormat> engine = new FileHelperEngine<FileFormat>();
 
